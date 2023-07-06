@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container{
+    background-image: url(zoom-colorful-glass-circle-abstract-generated-by-ai.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.top_section{
+    padding: 20px 20px;
+    
+    display: flex;
+ 
+    background: rgba(248, 31, 31, 0.1);
+    box-shadow: 0 0 20px white;
+    
+    justify-content: space-between;
+}
+
+.website_name{
+    color: white;
+    /* background-color: aqua; */
+    margin-left: 40px;
+}
+.navbar{
+    margin-right: 40px;
+}
+.navigate{
+    
+    margin-right: 35px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;   
+}
+
+.navigate:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 70%;
+    color: black;
+}
+.mid_sec{
+    /* background-color: aliceblue; */
+    margin-top: 200px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    
+}
+.button_sec{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+
+    padding: 20px;
+}
+button{
+    height: 50px;
+    width: 130px;
+    margin: 5px;
+    background: rgba(248, 31, 31, 0.1);
+    color: white;
+    font-size: 20px;
+
+    border-radius: 8px;
+    
+}
+
